@@ -49,7 +49,7 @@ ClaimSense is purpose-built for **insurance products** -  the scope of the pilot
 - Allows claims teams to deep-dive individual claims, test new rules, and save them for future use
 - Delivers fraud scores with full explainability so adjusters understand exactly why a claim was flagged
 
-### What ClaimSense Does Not Cover (v1)
+### ClaimSense Future Product Roadmap
 - Health insurance claims
 - Life insurance claims
 - Commercial or fleet insurance
