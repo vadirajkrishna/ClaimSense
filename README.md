@@ -50,14 +50,10 @@ ClaimSense is purpose-built for **insurance products** -  the scope of the pilot
 - Delivers fraud scores with full explainability so adjusters understand exactly why a claim was flagged
 
 ### ClaimSense Future Product Roadmap
-- Health insurance claims
-- Life insurance claims
-- Commercial or fleet insurance
-- First Notice of Loss (FNOL) automation
-- Direct policyholder-facing features
-
-> Future releases will expand coverage to additional lines of business based on insurer demand.
-
+- Personal lines other products
+- - Commercial lines
+- Health insurance
+- Life insurance 
 ---
 
 ## 🏗️ Business Architecture
