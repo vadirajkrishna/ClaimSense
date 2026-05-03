@@ -34,11 +34,12 @@ Because when fraud is caught early and genuine claims are settled faster, everyo
 ## 🎯 Scope
 
 ### Insurance Line
-ClaimSense is purpose-built for **Auto Insurance** to begin with, covering the two most fraud-prone claim types:
+ClaimSense is purpose-built for **insurance products** -  the scope of the pilot version is to cover the Auto insurance:
 
 | Coverage | Description |
 |---|---|
 | **Liability** | Claims arising from damage or injury caused to a third party — including bodily injury and property damage liability |
+| **Collision** | Coverage that applies even when multiple parties act together in causing a loss, as long as the event itself (e.g., accident, liability) is a covered peril and no exclusions apply|
 | **Comprehensive** | Claims for non-collision damage to the insured vehicle — including theft, fire, weather events, and vandalism |
 
 ### What ClaimSense Does
