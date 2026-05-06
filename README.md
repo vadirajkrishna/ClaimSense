@@ -57,7 +57,7 @@ ClaimSense is purpose-built for **insurance products** -  the scope of the pilot
 ---
 
 ### Insurance Claims Process Overiew and possible Fraud check points
-![ClaimSense Business Architecture](/docs/images/claims_process_with_checkpoints.png)
+![ClaimSense Business Architecture](docs/images/claims_process_with_checkpoints.png)
 
 ## ✨ Key Features
 
