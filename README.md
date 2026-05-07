@@ -59,6 +59,17 @@ ClaimSense is purpose-built for **insurance products** -  the scope of the pilot
 ### Insurance Claims Process Overiew and possible Fraud check points
 ![ClaimSense Business Architecture](docs/images/claims_process_with_checkpoints.png)
 
+## Personal Auto Claims — Fraud Checks by Process Stage
+
+
+| **Stage** | **Fraud Rules (Plain Language)** | **Example Scenario** | **Fraud Type** |
+|---|---|---|---|
+| **① FNOL** *(First Notice of Loss)* | • Does the claimant match the policyholder on record? <br>• Was the claim reported unusually late after the incident? <br>• Has this person or vehicle been involved in previous claims? <br>• Are any other parties linked to the claimant (family, associates)? | A "hit-and-run" claim is filed, but the other vehicle turns out to belong to a relative — and the same damage was already claimed 8 months ago without any repair being done | Collusive Fabrication · Duplicate Claim |
+| **② Registration & Triage** | • Was the policy actually active on the date of the incident? <br>• Do the photos and documents look genuine, or have they been digitally altered? <br>• Do official weather records actually support the claimed weather damage? <br>• Could the damage photos have been AI-generated or reused from elsewhere? | A customer submits high-quality flood damage photos, but weather records show no rainfall that day — and the image file timestamps have been tampered with | Synthetic Evidence · False Loss Cause |
+| **③ Investigation & Assessment** | • Do dashcam, CCTV, or telematics data actually match the claimant's version of events? <br>• Are the same people, clinics, or repairers appearing across multiple unrelated claims? <br>• Does the number of injured passengers match what's shown on scene footage? <br>• Has the same damage pattern appeared in a previous claim on a different vehicle? <br>• Does the claimant's social media contradict the injuries or loss they're claiming? | A rear-end collision results in 5 injury claims, but CCTV shows only 2 people in the car — and those same individuals appear in 3 other claims filed at the same clinic | Organised Staged Accident · Injury Padding |
+| **④ Settlement & Payment** | • Does the claim pass an automated fraud risk score before payment is released? <br>• Is the payee flagged on any sanctions, watchlists, or known fraud databases? <br>• Is the bank account receiving payment new, recently changed, or linked to other claims? <br>• Has the same repair or treatment already been paid out by another insurer? | A repair shop submits an invoice for work already paid by the claimant's previous insurer — and the "repaired" vehicle had the same damage re-claimed 6 months later | Duplicate Claim · Double Billing |
+
+
 ## ✨ Key Features
 
 - ⚡ **Instant activation** — operational the moment it connects to your data
